@@ -1,3 +1,38 @@
 html, body {
-	background-color: #000000;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	min-height: 100%;
+	position: relative;
+}
+.header {
+	height: 1em;
+}
+.footer {
+	height: 1em;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.body {
+	margin: 1em;
+	height: 3em;
+}
+.body-content {
+	height: 1em;
+	margin: 1em;
+}
+.bg-0 {
+	background-color: #4a0c3e;
+}
+.bg-1 {
+	background-color: #5a1c4e;
+}
+.bg-2 {
+	background-color: #6a2c5e;
+}
+.bg-3 {
+	background-color: #7a3c6e;
 }
