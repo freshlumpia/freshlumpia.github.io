@@ -1,38 +1,39 @@
-html, body {
-	height: 100%;
-	padding: 0;
-	margin: 0;
-}
-.container {
-	min-height: 100%;
-	position: relative;
-}
-.header {
-	height: 1em;
-}
-.footer {
-	height: 1em;
-	position: absolute;
-	bottom: 0;
+body {
 	width: 100%;
+	margin: 0;
+	background: red;
+	font-family: sans-serif;
 }
-.body {
-	margin: 1em;
-	height: 3em;
+header {
+	width: 100%;
+	float: left;
+	background: green;
+	font-size: 3vmin;
 }
-.body-content {
-	height: 1em;
-	margin: 1em;
+footer {
+	width: 100%;
+	float: left;
+	background: blue;
 }
-.bg-0 {
-	background-color: #4a0c3e;
+.right {
+	width: 33%;
+	float: left;
+	background: yellow;
 }
-.bg-1 {
-	background-color: #5a1c4e;
+.left {
+	width: 66%;
+	float: left;
+	background: violet;
 }
-.bg-2 {
-	background-color: #6a2c5e;
-}
-.bg-3 {
-	background-color: #7a3c6e;
+@media only screen and (max-width: 600px) {
+	.right {
+		width: 100%;
+		float: left;
+		background: violet;
+	}
+	.left {
+		width: 100%;
+		float: left;
+		background: yellow;
+	}
 }
